@@ -1,0 +1,53 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-1 {
+  flex: 1;
+  min-width: 160px;
+}
+
+.p-top {
+  padding-bottom: 20px;
+}
+
+.r-align {
+  text-align: right;
+}
+
+.search {
+  width: 200px;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.gap-5 {
+  grid-gap: 5%;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.note {
+  max-width: 500px;
+}
+
+.note-item {
+  margin-bottom: 20px;
+}
+
+.note-header {
+  justify-content: space-between;
+}
+
+.ant-tag {
+  margin: 0px;
+}

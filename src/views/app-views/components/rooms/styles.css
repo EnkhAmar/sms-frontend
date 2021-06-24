@@ -1,0 +1,13 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-1 {
+  min-width: 160px;
+  flex: 1;
+}
+
+.gap-5 {
+  grid-gap: 5%;
+}

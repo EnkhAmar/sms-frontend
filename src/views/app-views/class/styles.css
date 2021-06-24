@@ -1,0 +1,10 @@
+.filter{
+  width: 150px;
+  margin: 10;
+}
+
+.class-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

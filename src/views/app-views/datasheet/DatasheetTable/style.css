@@ -1,0 +1,60 @@
+table.data-grid {
+    margin: auto;
+    width: 100%;
+}
+.data-grid-container .data-grid .cell > input {
+    outline: none !important;
+    border: 2px solid rgb(62, 121, 247);
+    text-align:right;
+    width: 100%;
+    height: 100%;
+    background: none;
+    display: block;
+}
+
+.data-grid-container .data-grid .cell.read-only {
+    color: #333;
+}
+
+.not-bold {
+    font-weight: bold;
+}
+
+
+.data-grid-container .data-grid .cell {
+    text-align: center;
+}
+
+.data-grid-container .data-grid .cell .value-viewer {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.filter-container {
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.sheet-container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.header-dark {
+    background: blue;
+}
+
+.header-light {
+    background: #f2f2f2;
+}
+
+.select-width {
+    width: 150px;
+}
+
+@media(max-width: 1400px) {
+    .select-width {
+        width: 100px;
+    }
+}

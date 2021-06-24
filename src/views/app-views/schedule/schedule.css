@@ -1,0 +1,46 @@
+._calendar-show-type-select {
+    min-width: 95px;
+    margin-right: 8px;
+}
+._calendar-year-select {
+    min-width: 80px;
+}
+._calendar-month-select {
+    min-width: 70px;
+    margin-left: 8px;
+}
+._calendar-mode-switch {
+    margin-left: 8px;
+}
+._calendar-header {
+    display: flex;
+    justify-content: space-between;
+}
+._calendar-header-teacher {
+    justify-content: flex-end !important;
+}
+.radio-btn {
+    padding: 0px 15px;
+    min-width: 65px;
+    text-align: center;
+}
+.filter_by_teacher_room {
+    width: 150px;
+    margin-right: 8px;
+}
+.no_work .no_work_text{
+    color: #72849a;
+}
+.no_work .no_work_svg {
+    width: 90%;
+    height: auto;
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 768px) {
+    .no_work .no_work_svg {
+        display: none;
+    }
+}

@@ -1,0 +1,27 @@
+.filter-search{
+  width: 200px;
+}
+
+.flex, .info-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-1 {
+  flex: 1;
+  min-width: 160px;
+}
+
+.info-flex-1 {
+  flex: 1,
+}
+
+.info-item {
+  width: 50%;
+  min-width: 90px;
+  margin-bottom: 10px;
+}
+
+.gap-5 {
+  grid-gap: 5%;
+}

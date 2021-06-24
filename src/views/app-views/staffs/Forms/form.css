@@ -1,0 +1,32 @@
+.choose_role_radio {
+    min-width: 90px;
+    min-height: 90px;
+    width: 100px;
+}
+
+.choose_role_radio:last-child, .choose_role_radio:first-child  {
+    border-radius: 0px;
+}
+
+.choose_role_box {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    padding-top: 15px;
+}
+.choose_role_box .fa-icon {
+    font-size: 1.5rem;
+}
+.choose_role_box .fa-text {
+    font-size: 1rem;
+    user-select: none;
+}
+
+.gap-5 {
+    gap: 5%;
+}
+
+.flex-1 {
+    flex: 1
+}
