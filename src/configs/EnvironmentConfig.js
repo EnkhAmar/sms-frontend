@@ -1,6 +1,6 @@
-export const url = 'http://192.168.1.212:8000';
+export const url = 'http://54.180.128.247';
 
-export const dev = 'http://192.168.1.212:8000';
+export const dev = 'http://54.180.128.247';
 
 export const DATASHEET_REGISTER_TYPE = [
 	{
